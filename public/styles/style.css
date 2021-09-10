@@ -1,0 +1,82 @@
+#header{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#containerCSS-header{
+    width: 100vw;
+    height: 150px;
+}
+
+#containerCSS-header-fundo{
+    width: 100vw;
+    height: 100px;
+    background-image: linear-gradient(-137deg, #383838, #202020);
+    display: inline-block;
+    position: relative;
+    border-bottom: 3px solid rgb(29, 180, 87);
+}
+
+
+#titleCSS{
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-size: 2em;
+    padding: 10px;
+    margin: 0;
+    float: left;
+    margin-left: 40px;
+}
+#containerCSS-nav{
+    width: 100vw;
+    text-align: center;
+}
+#containerCSS-nav li{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5em;
+    display:inline-block;
+    text-align: center;
+    transition: color 0.2s ease-in-out, color 0.2s ease-in-out;
+    text-decoration: none;
+}
+#containerCSS-nav li:hover{
+    border-radius: 10%;
+    color: #202020;
+    transition: color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+#titleCSS-nav{
+    margin: 0;
+    margin-top: 5px;
+    display: inline-block;
+    color: white;
+    font-size: 4.0em;
+    font-family: 'Rampart One', cursive, sans-serif;
+}
+
+.w3-container{
+    border-radius: 5px;
+}
+#ppp{
+    margin-top: -40px;
+    font-size: 80%;
+    text-align: justify;
+    padding: 5px;
+    text-indent: 3%;
+}
+.card-title{
+    font-weight: 500;
+    font-size: 1.3em;
+}
+.card-text{
+    font-size: 0.8em;
+}
